@@ -2,8 +2,8 @@ import * as React from 'react';
 import {
   createMuiTheme,
   CssBaseline,
-  MuiThemeProvider,
 } from '@material-ui/core';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 import { createDefaultTheme, defaultTheme } from './theme';
 
 /**
